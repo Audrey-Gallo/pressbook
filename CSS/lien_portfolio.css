@@ -52,8 +52,9 @@ h1{
     height: 300px;
 }
 
-.gallery:hover {
-    border: 2px solid rgb(0, 0, 0);
+img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=50);
 }
 
 .gallery img {
