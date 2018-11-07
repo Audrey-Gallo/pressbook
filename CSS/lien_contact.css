@@ -1,0 +1,83 @@
+h1{
+    color: green;
+    font-size: 2cm;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+h2{
+    color: black;
+    font-size: 1.2cm;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.info_perso{
+    color: black;
+    font-size: 0.8cm;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:rgb(136, 139, 134);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+img{
+    width: 700px;
+    position: absolute;
+    right: 300px;
+    top: 300px;
+    z-index: -1;
+    box-shadow: 8px 8px 12px rgb(90, 88, 88);
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgba(133, 127, 127, 0.774)
+}

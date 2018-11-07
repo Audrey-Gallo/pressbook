@@ -1,0 +1,73 @@
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:rgb(136, 139, 134);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.titre{
+    color: green;
+    font-size: 2.5cm;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .nom_prenom{
+    color: black;
+    font-size: 1.5cm;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ } 
+ 
+img{
+    opacity: 0.5;
+    filter:alpha(opacity=30) 
+    background-position: right;
+    width: 900px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    z-index: -1;
+}
