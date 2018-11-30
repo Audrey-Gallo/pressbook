@@ -11,8 +11,8 @@ li {
     border-right:1px solid #bbb;
 }
 
-li:last-child {
-    border-right: none;
+#contact{
+    float: right;
 }
 
 li a {
@@ -36,7 +36,6 @@ ul {
     top: 0;
     width: 100%;
 }
-
 
 .titre{
     color: green;
