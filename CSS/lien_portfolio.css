@@ -72,6 +72,6 @@ img:hover {
 }
 
 body{
-    text-align: center;
-    background-color: rgba(224, 233, 215, 0.774);
+  text-align: center;
+  background-image: url("../Photos/photo_fond.jpg")
 }
