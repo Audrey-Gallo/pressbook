@@ -11,10 +11,6 @@ li {
     border-right:1px solid #bbb;
 }
 
-#contact{
-    float: right;
-}
-
 li a {
     display: block;
     color: white;
@@ -31,7 +27,7 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-ul {
+ul{
     position: fixed;
     top: 0;
     width: 100%;
@@ -70,3 +66,8 @@ img{
     top: 30px;
     z-index: -1;
 }
+
+#contact{
+    float: right;
+}
+

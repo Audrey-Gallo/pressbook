@@ -11,10 +11,6 @@ li{
     border-right:1px solid #bbb;
 }
 
-#contact{
-    float: right;
-}
-
 li a{
     display: block;
     color: white;
@@ -37,6 +33,10 @@ ul{
     width: 100%;
 }
 
+#contact{
+    float: right;
+}
+
 h1{
     padding-top: 30px;
     color: green;
@@ -48,8 +48,8 @@ h1{
 
 .gallery {
     
-     margin: 25px;
-    border: 1px solid rgb(0, 0, 0);
+    margin: 35px;
+    border: 2px solid rgb(0, 128, 0);
     display: inline-block;
     height: 300px;
    
