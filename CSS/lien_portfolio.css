@@ -47,8 +47,7 @@ h1{
 }
 
 .gallery {
-    
-    margin: 35px;
+    margin: 40px;
     border: 2px solid rgb(0, 128, 0);
     display: inline-block;
     height: 300px;
