@@ -58,7 +58,7 @@ ul{
  
 img{
     opacity: 0.5;
-    filter:alpha(opacity=30);
+   
     background-position: right;
     width: 900px;
     position: absolute;

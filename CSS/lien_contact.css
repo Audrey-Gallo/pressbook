@@ -81,8 +81,7 @@ h1{
     }
 
     #image_fond {
-    opacity: 0.5;
-        filter:alpha(opacity=30);
+        opacity: 0.5;
         background-position: right;
         width: 900px;
         position: absolute;
@@ -125,8 +124,7 @@ h1{
     }
 
     #image_fond {
-    opacity: 0.5;
-        filter:alpha(opacity=30);
+        opacity: 0.5;
         background-position: right;
         width: 900px;
         position: absolute;
